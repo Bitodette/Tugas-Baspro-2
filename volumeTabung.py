@@ -3,6 +3,6 @@ import math
 r = float(input("Masukkan Jari-Jari Tabung: "))
 t = float(input("Masukkan Tinggi Tabung: "))
 
-v = math.pi * r * r * t
+v = round(math.pi * r * r * t,2)
 
 print("Volume Tabung adalah", v)
