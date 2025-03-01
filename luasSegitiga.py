@@ -1,4 +1,3 @@
-#menghitung luas segitiga, persegi panjang, lingkaran, tabung
 a = float(input("Alas segitiga: "))
 t = float(input("Tinggi segitiga: "))
 
