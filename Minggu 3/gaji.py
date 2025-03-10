@@ -21,10 +21,6 @@ nik = int(input("Masukkan NIK: "))
 status = input("Masukkan Status (Tetap/Honor): ").capitalize()
 golongan = input("Masukkan Golongan (A/B/C): ").upper()
 
-gaji = 0
-bonusGolongan = 0
-gajiTotal = 0
-
 while True:
     if status == "Tetap" or status == "Honor":
         break
