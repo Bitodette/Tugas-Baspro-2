@@ -19,8 +19,6 @@ bonus = {
 nama = input("Masukkan Nama: ").title()
 nik = int(input("Masukkan NIK: "))
 status = input("Masukkan Status (Tetap/Honor): ").capitalize()
-golongan = input("Masukkan Golongan (A/B/C): ").upper()
-
 while True:
     if status == "Tetap" or status == "Honor":
         break
@@ -28,6 +26,7 @@ while True:
         print("Status harus 'Tetap' atau 'Honor'")
         status = input("Masukkan Status yang Benar (Tetap/Honor): ").capitalize()
 
+golongan = input("Masukkan Golongan (A/B/C): ").upper()
 while True:
     if golongan == "A" or golongan == "B" or golongan == "C":
         break
