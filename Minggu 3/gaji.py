@@ -38,7 +38,7 @@ gaji = gajiPokok.get(status)
 bonusGolongan = bonus.get(status).get(golongan)
 gajiTotal = gaji + bonusGolongan
 
-print(f"\nData Pegawai")
+print("\nData Pegawai")
 print(f"Nama       : {nama}")
 print(f"NIK        : {nik}")
 print(f"Status     : {status}")
