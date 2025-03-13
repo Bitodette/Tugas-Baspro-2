@@ -17,7 +17,13 @@ bonus = {
 }
 
 nama = input("Masukkan Nama: ").title()
-nik = int(input("Masukkan NIK: "))
+while True:
+    try:
+        nik = int(input("Masukkan NIK: "))
+        break
+    except ValueError:
+        print("NIK harus berupa angka")
+        
 status = input("Masukkan Status (Tetap/Honor): ").capitalize()
 while True:
     if status == "Tetap" or status == "Honor":
